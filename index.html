@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💦 AI Water Pipeline Leakage Detection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>💧 AI-Based Water Pipeline Leakage Detection</h1>
+
+    <div class="pipeline">
+      <div class="water"></div>
+      <div class="leak" id="leak"></div>
+    </div>
+
+    <div class="panel">
+      <p>💧 Flow Rate: <span id="flow">--</span> L/min</p>
+      <p>⚙️ Pressure: <span id="pressure">--</span> PSI</p>
+      <p>🔊 Sound Level: <span id="sound">--</span> dB</p>
+      <p class="alert" id="alert"></p>
+    </div>
+
+    <div class="controls">
+      <button onclick="startMotor()">Start Motor</button>
+      <button onclick="stopMotor()">Stop Motor</button>
+    </div>
+  </div>
+
+  <button id="nextPage" class="next-btn">Next ➡️</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
