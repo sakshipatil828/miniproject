@@ -1,0 +1,72 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Main container */
+.container {
+    text-align: center;
+    background: white;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 12px;
+    width: 95%;
+    max-width: 1400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    color: #2d3436;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Leak Status */
+.status {
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Chart Section */
+.chart-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.15);
+}
+
+/* Canvas stretched nicely */
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Back Button */
+.next-btn {
+    position: absolute;
+    bottom: 200px;
+    right: 400px;
+    padding: 120px 240px;
+    font-size: 180px;
+    background: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background: #1565c0;
+}
